@@ -14,7 +14,9 @@ import { DetailRegistryComponent } from './component/registry/detail-registry/de
 
 import { ReporteVentasComponent } from './reportes/ventas/ventas.component';
 
-import { VentasComponent } from './ventas/ventas.component'
+import { VentasComponent } from './ventas/ventas.component';
+import { ListarVentasComponent } from './listar-ventas/listar-ventas.component';
+
 import { EntregasComponent } from './reportes/entregas/entregas.component';
 import { PagosComponent } from './reportes/pagos/pagos.component';
 
@@ -41,7 +43,8 @@ const routes: Routes = [
 	{path: "registry/detail/:id", component: DetailRegistryComponent},
 
 	//ventas
-	{path: "ventas", component: VentasComponent}
+	{path: "ventas", component: VentasComponent},
+	{ path: "listar/ventas", component: ListarVentasComponent }
 	
 ];
 

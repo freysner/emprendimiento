@@ -24,6 +24,8 @@ import { VentasComponent } from './ventas/ventas.component';
 import { EntregasComponent } from './reportes/entregas/entregas.component';
 import { PagosComponent } from './reportes/pagos/pagos.component';
 import { ReporteVentasComponent} from './reportes/ventas/ventas.component';
+import { ListarVentasComponent } from './listar-ventas/listar-ventas.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -44,13 +46,15 @@ import { ReporteVentasComponent} from './reportes/ventas/ventas.component';
     VentasComponent,
     EntregasComponent,
     PagosComponent,
-    ReporteVentasComponent
+    ReporteVentasComponent,
+    ListarVentasComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

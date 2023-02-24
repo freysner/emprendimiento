@@ -10,12 +10,13 @@
 
   <!-- barra de navegacion de la pagina -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" [routerLink]="['home']">Emprendimiento SALTEÑERIA</a>
+    <img src="../assets/Logos-Emprendimientos-02.png" width="150px">
+    <a class="navbar-brand" [routerLink]="['home']"><span class="titulo">la salteña con el máximo sabor</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav ml-5" style="padding-left: 210px;color: rgb(141, 14, 14);">
         <li class="nav-item">
           <a class="nav-link" [routerLink]="['registry/add']">Pagar</a>
         </li>
